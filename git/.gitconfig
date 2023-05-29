@@ -1,0 +1,24 @@
+[core]
+  pager = delta
+  editor = code --wait
+  diffFilter = delta --color-only
+
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true    # use n and N to move between diff sections
+  light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+[diff]
+  tool = vscode
+  colorMoved = default
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+  conflictstyle = diff3
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[alias]
+	logo = log --oneline
