@@ -22,3 +22,7 @@
   cmd = code --wait $MERGED
 [alias]
 	logo = log --oneline
+[oh-my-zsh]
+    hide-status = 1
+    hide-dirty = 1
+
