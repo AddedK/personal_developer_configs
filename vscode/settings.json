@@ -1,0 +1,3 @@
+"editor.tokenColorCustomizations": {
+    "functions": "#0da5f7" // Meant for Tokyo Light theme
+},
