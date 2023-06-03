@@ -10,3 +10,15 @@
 
 ### Add settings
 * Add the entries the settings into the vscode user settings
+
+### Extensions/themes to install
+#### Extensions
+* Dev containers
+* WSL
+* GitLens
+* Code specific assistanes, such as Better C++ Syntax, Python, Pylance etc.
+    * The good ones will most likely be recommended by vscode.
+
+#### Themes
+* Tokyo (light)
+* Material theme icons
