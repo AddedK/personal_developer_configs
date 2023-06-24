@@ -79,7 +79,7 @@
         "command": "workbench.action.terminal.newInActiveWorkspace"
     },
     {
-        "key": "delete",
+        "key": "shift+delete",
         "command": "-workbench.action.terminal.killInstance",
         "when": "terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
     }
