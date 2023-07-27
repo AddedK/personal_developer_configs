@@ -70,7 +70,7 @@
         "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
     },
     {
-        "key": "delete",
+        "key": "shift+delete",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     },
@@ -79,8 +79,18 @@
         "command": "workbench.action.terminal.newInActiveWorkspace"
     },
     {
-        "key": "shift+delete",
+        "key": "delete",
         "command": "-workbench.action.terminal.killInstance",
         "when": "terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "alt+oem_7",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     }
 ]
