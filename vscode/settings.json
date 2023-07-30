@@ -3,5 +3,7 @@
         "functions": "#0da5f7" // Meant for Tokyo Light theme
     },
     "editor.acceptSuggestionOnEnter": "off",
-    "rust-analyzer.cargo.autoreload": false // If you don't have this, then when you run cargo X (cargo run) then it recompiles already compiled depenendencies even if NOTHING has changed
+    "rust-analyzer.cargo.autoreload": false, // If you don't have this, then when you run cargo X (cargo run) then it recompiles already compiled depenendencies even if NOTHING has changed
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono"
 }
