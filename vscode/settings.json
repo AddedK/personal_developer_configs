@@ -2,7 +2,7 @@
     "editor.tokenColorCustomizations": {
         "functions": "#0da5f7" // Meant for Tokyo Light theme
     },
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "on",
     "rust-analyzer.cargo.autoreload": false, // If you don't have this, then when you run cargo X (cargo run) then it recompiles already compiled depenendencies even if NOTHING has changed
     "editor.fontFamily": "DejaVuSansM Nerd Font Mono",
     "terminal.integrated.fontFamily": "DejaVuSansM Nerd Font Mono"
