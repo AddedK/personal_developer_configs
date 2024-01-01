@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias castle="cd /mnt/c/users/Added"
+alias python=python3
 
 # Turn off all beeps
 unsetopt BEEP
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+ source /usr/share/doc/fzf/examples/key-bindings.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions
