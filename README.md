@@ -7,3 +7,4 @@ This repo contains my settings for various developer tools, such as editors and 
 3. [vscode](vscode/README.md)
 4. [zellij](zellij/README.md)
 4. [nvim](nvim/README.md)
+5. [fzf](fzf/README.md)
