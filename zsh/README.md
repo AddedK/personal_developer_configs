@@ -4,24 +4,10 @@
 
 * sudo apt install zsh
 
-
-### Install [OhMyZsh](https://ohmyz.sh/) 
-
 ### Move/replace .zshrc to ~/.zshrc
-### How to setup plugins
-#### Setup [zzh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 
 
-* git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+### Good guide for moving away from OMZ: https://dev.to/hbenvenutti/using-zsh-without-omz-4gch
 
-* In .zshrc
-```
-plugins=( 
-    # other plugins...
-    zsh-autosuggestions
-) 
-```
-
-#### Setup [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) 
-* `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-
-* Make sure plugins has zsh-syntax-highlighting
+### Installing themes and plugins
+Look at the .zshrc for what plugins and themes are sources.
+Clone those repos and place them in either ~/.zsh/plugins or ~/.zsh/themes/
